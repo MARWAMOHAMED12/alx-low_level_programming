@@ -1,7 +1,7 @@
 #include <unistd.h>
 /**
-* main - programm that prints string
-* Return: Always 1.
+*main - programm that prints string
+*Return: Always 1.
 */
 int main(void)
 {
