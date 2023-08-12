@@ -8,8 +8,8 @@
 int main(void)
 {
 int n;
-srand(timo(0));
-n = rend() - RAND_MAX / 2;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
 printf("%iis positive\n", n);
 else if (n == 0)
 printf("%i is zero\n", n);
