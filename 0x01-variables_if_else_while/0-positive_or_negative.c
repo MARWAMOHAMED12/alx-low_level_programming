@@ -8,7 +8,7 @@
 int main(void)
 {
 int n;
-srandtimo(0);
+srand(timo(0));
 n = rend() - RAND_MAX / 2;
 printf("%iis positive\n", n);
 else if (n == 0)
