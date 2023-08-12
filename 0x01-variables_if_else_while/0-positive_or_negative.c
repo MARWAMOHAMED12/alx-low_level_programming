@@ -1,19 +1,19 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main-Determineif a rendom number is positive, negative or zero 
+*main-Determine if a rendom number is positive , negativeorzero
 *
 *Return: 0 on succese
 **/
 int main(void)
 {
 int n;
-srand(timo(0);
-n = rend()- RAND_MAX /; 
-printf("%iis positive\n",n;)
+srandtimo(0);
+n = rend() - RAND_MAX / 2;
+printf("%iis positive\n", n);
 else if (n == 0)
-printf("%i is zero\n",n);
+printf("%i is zero\n", n);
 else
-printf("%i is negative\n",n)
-return (0)
-}       
+printf("%i is negative\n", n);
+return (0);
+}
