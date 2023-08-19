@@ -1,9 +1,12 @@
 #include "main.h"
+
+
 /**
  * main-print_putchar
- * is written by mbah
- * Return:0
+ * 
+ * Return:Always 0
  */
+
 int main(void)
 {
 _putchar('_');
@@ -13,7 +16,7 @@ _putchar('t');
 _putchar('c');
 _putchar('h');
 _putchar('a');
-_Putchar('r');
+_putchar('r');
 _putchar('\n');
-  return (0);
+return (0);
 }
