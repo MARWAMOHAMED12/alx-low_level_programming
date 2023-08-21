@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * rest_to_98 - a function that takes a pointer to an int a s parameter
- * and updates tha value it points to to 98
- * @n: input
- * Return: 0 
+ * rest_to_98 - rests n to 98
+ * @n: points to the value to be changed
+ * Return:void
  */
 void rest_to_98(int *n)
 {
