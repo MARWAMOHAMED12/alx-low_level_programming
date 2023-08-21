@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts_half-printhalf
+ * puts_half-printhalf of string
  * @str: parameter to be printed
  * Return:void
  */
