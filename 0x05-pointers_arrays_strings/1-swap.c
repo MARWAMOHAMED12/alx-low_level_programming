@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * swp_int - swps the values of two integers
+ * swap_int - swaps the values of two integers
  * @a: integers to swp
  * @b: integers to swp
  */
-void swp_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int m;
 
