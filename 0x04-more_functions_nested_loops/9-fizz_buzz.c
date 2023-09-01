@@ -32,6 +32,7 @@ printf("%d", i);
 {
 printf("%d", i);
 }
+else
 }
 printf("\n");
 
