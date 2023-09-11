@@ -6,7 +6,7 @@
  * @d: pointer to structure
  * Return: Always 0
  */
-void description print_dog(struct dog *d)
+void print_dog(struct dog *d)
 {
 if (d == NULL)
 {
