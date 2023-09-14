@@ -1,27 +1,12 @@
 #include "variadic_functions.h"
+
 /**
- * print_strings - print strings with separator
- * @separator: the string separator
- * @n: the number of arguments
- * @...:the string to print
- * Return: void
+ * main - check the code
+ *
+ * Return: Always 0.
  */
-void print_strings(const char *separator, const unsigned int n, ...)
+int main(void)
 {
-va_list strings;
-char *str;
-unsigned int index;
-va_start(strings, n);
-for (index = 0; index < n; index++)
-{
-str = va_arg(strings, char *);
-if (str == NULL)
-printf("(nil)");
-else
-printf("%s", str);
-if (index != (n - 1) && separator != NULL)
-printf("%s", separator);
-}
-printf("\n");
-va_end(strings);
+print_strings(", ", 2, "Jay", "Django");
+return (0);
 }
