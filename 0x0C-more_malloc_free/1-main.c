@@ -3,16 +3,20 @@
 #include <stdlib.h>
 
 /**
- * main - check the code
+ * main - check the code for ALX School students.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-    char *concat;
-
-    concat = string_nconcat("Best ", "School !!!", 6);
-    printf("%s\n", concat);
-    free(concat);
-    return (0);
+char *s;
+s = _strdup("ALX SE");
+if (s == NULL)
+{
+printf("failed to allocate memory\n");
+return (1);
+}
+printf("%s\n", s);
+free(s);
+return (0);
 }
